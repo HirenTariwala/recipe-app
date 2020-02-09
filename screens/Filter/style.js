@@ -1,6 +1,21 @@
 import { StyleSheet } from 'react-native';
-import { commonStyle } from '../../common/styles/style';
 
 export const style = StyleSheet.create({
-    ...commonStyle
+    screen: {
+        flex: 1,
+        alignItems: 'center'
+    },
+    title: {
+        fontFamily: 'open-sans-bold',
+        fontSize: 24,
+        margin: 10,
+        textAlign: 'center'
+    },
+    filterContainer: {
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        alignItems: 'center',
+        width: '80%',
+        marginVertical: 10
+    }
 })
